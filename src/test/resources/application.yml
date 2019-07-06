@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: test
+app:
+  check-stream-cron: 0 */5 * * * ?
+  euronews-url: euronews.com/api/watchlive.json
